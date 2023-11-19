@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+#myVideo{
+    min-width: 100%;
+    
+}
+
+/* Your existing styles for the navigation bar and other sections */
+
+nav {
+    background-color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px; /* Adjust the height as needed */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: greenyellow;
+}
+
+
+
+.rice-theme {
+    background-size: cover;
+    background-position: center;
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+
+.icon {
+    width: 50px;
+    height: auto;
+    
+}
+
+.icon-heading {
+    margin-top: 10px;
+}
+
+/* Additional styles for the sections */
+#vision h2,
+#mission h2 {
+    color: black; /* Set text color to white for better contrast */
+    margin-top: 100px;
+}
+#mission{
+    margin-bottom: 100px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    
+  }
+  
+  .navbar a {
+    
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+  
+  .dropdown {
+    
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #7CFC00;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Your existing styles for the navigation bar and other sections */
+
+
+
+#problem-identification input {
+    display: none;
+}
+
+/* Style the label to look like a clickable element */
+#problem-identification label {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Style the content to be hidden by default */
+#problem-identification .content {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Show the content when the checkbox is checked */
+#problem-identification input:checked + label + .content {
+    display: block;
+}
+.problem{
+    color: white;
+}
+
+.interactive-section {
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.interactive-section label {
+    display: block;
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-bottom: 1px solid #297fb8;
+}
+
+.interactive-section .content {
+    padding: 15px;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+/* Show the content when the checkbox is checked */
+.interactive-section input:checked + label + .content {
+    display: block;
+}
+
+.benchmark {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.benchmark h3 {
+    font-size: 1.2em;
+    color: #3498db;
+}
+
+.benchmark-content {
+    margin-left: 15px;
+}
+
+#design-specification {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Additional styles for the sections */
+#existing-solution h2,
+#design-specification h2 {
+    color: #333;}
+#existing-solution {
+    text-align: center;
+    margin: 20px;
+}
+
+.solution-item {
+    margin: 20px;
+}
+
+.solution-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.solution-item h3 {
+    margin-top: 10px;
+}
+
